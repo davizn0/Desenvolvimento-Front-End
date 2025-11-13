@@ -1,12 +1,16 @@
 /* Fonte personalizada */
 body {
   font-family: 'Quicksand', sans-serif; /* Define a fonte principal do site como Quicksand */
+  background: linear-gradient(to bottom, #ffffff 0%, #9c9c9c 100%); /* degrade vertical */
 }
 
 /* Navbar refinada */
-.navbar {
+.navbar { /* Consertar customização da navbar */
   font-size: 16px; /* Tamanho da fonte da barra de navegação */
   transition: box-shadow 0.3s ease; /* Transição suave para a sombra ao passar o mouse */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar:hover {
@@ -86,13 +90,6 @@ body {
 .dropdown-item:hover {
   background-color: #f8f9fa; /* Fundo claro ao passar o mouse */
   color: rgb(211, 186, 0); /* Cor roxa ao passar o mouse */
-}
-/*Estilo da página chaVerdeCooler*/
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  background-color: #fefefe;
-  color: #333;
 }
 
 .navbar {
